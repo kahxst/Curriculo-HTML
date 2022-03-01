@@ -1,0 +1,197 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#01010ef5 ;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+
+.parte1{
+    background:#6a6a6a;
+    height: 930px;
+    width: 220px;
+}
+
+
+
+/*foto e nome*/
+
+.img-titulo{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+
+.img-titulo img{
+    margin-top: 45px;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+}
+
+
+.img-titulo h3{
+    margin-top: 20px;
+    font-size: 16px;
+    position: relative;
+    left: -18px;
+    color: rgb(230, 228, 228);
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-titulo hr{
+ width: 200px;
+}
+
+/*nformacoes*/
+.informacoes{
+padding-left: 10px;
+}
+.informacoes h2:first-child{
+    margin-top:25px ;
+}
+
+.informacoes h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(216, 216, 216);
+    font-family: 'Poppins', sans-serif;
+}
+
+.informacoes h4{
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(228, 220, 220);
+    font-weight: 100;
+}
+
+/* parte 2*/
+.parte2{
+    background: rgb(21, 23, 32);
+    height: 930px;
+    width: 750px;
+    padding: 35px;
+}
+.parte2  h2:first-child{
+    font-size: 25px;
+    color: rgb(145, 143, 143);
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 26px;
+}
+
+.parte2  h2{
+    font-size: 25px;
+    color: rgb(145, 143, 143);
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 26px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.parte2  h2 span{
+    color: rgb(107, 106, 106);
+}
+
+.parte2  p.primeira{
+  margin-top: 15px;
+  width: 80%;
+  font-size: 17px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(141, 141, 141);
+}
+
+.parte2 hr{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.parte2 h5{
+    color: rgb(141, 141, 141) ;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.parte2 h5 span{
+    color: rgb(107, 106, 106);
+}
+
+.parte2 ul{
+    list-style:outside;
+    width: 80%;
+}
+
+.parte2 ul li{
+    font-size: 16px;
+    color:rgb(141, 141, 141) ;
+    text-align: left;
+    
+}
+
+.parte2 ul li span{
+    color: rgb(83, 83, 83);
+}
+
+.parte2 ul li a{
+    text-decoration: none;
+    font-size: 14px;
+   color:rgba(236, 227, 227, 0.301);
+   font-weight: 100;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.parte2 ul li .link{
+    margin-top: 10px;
+    width: 150px;
+    height: 20px; 
+    text-align: center;
+    background-color: rgb(3, 4, 19) ;
+    border-radius: 15px;
+    transition: 1s ease all; 
+}
+
+.parte2 ul li .link:hover{
+    background-color: rgb(26, 29, 53) ;
+}
+
+ .informacoes  a{
+color: black;
+font-size: 22px;
+margin-right: 8px;
+margin-left: 10px;
+transition: 1s ease all;
+}
+
+.informacoes  a:last-child:hover{
+    color: rgb(53, 21, 231);
+
+    }
+
+    .informacoes  a:first-child:hover{
+        color: rgb(255, 141, 75);
+    
+        }
+
+
+
+
+
+
